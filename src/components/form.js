@@ -1,5 +1,6 @@
 import React from "react"
 import { rhythm, scale } from "../utils/typography"
+import { withAssetPrefix } from "gatsby";
 
 class Form extends React.Component {
   render() {
@@ -21,10 +22,21 @@ class Form extends React.Component {
           <button
             style={{
               width: 215,
+              color: "white",
+              backgroundColor: "#007acc",
             }}
           >
             Subscribe
           </button>
+          <br />
+          <br />
+          <p
+            style={{
+              fontSize: 12.5,
+            }}
+          >
+            No spams. Unsubscribe at any time.
+          </p>
         </form>
       </div>
     )
