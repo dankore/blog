@@ -64,9 +64,11 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          <Form />
-          © {new Date().getFullYear()}
+          <Form />© {new Date().getFullYear()}
           {` `}
+          <a href="#">Github</a>
+          {' '}
+          <a href="#">Bitbucket</a>
         </footer>
       </div>
     )

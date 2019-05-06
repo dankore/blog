@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>. Founder and CEO of 
+              Blog by <strong>{author}</strong>. Founder and CEO of 
               {' '}
               <a href="https://homeawayfromhome.online">Home Away From Home</a>.
               {` `}
