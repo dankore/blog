@@ -65,10 +65,10 @@ class Layout extends React.Component {
         <main>{children}</main>
         <footer>
           <Form />© {new Date().getFullYear()}
-          {` `}
-          <a href="#">Github</a>
-          {' '}
-          <a href="#">Bitbucket</a>
+          {` . `}
+          <a href="https://github.com/dankore">Github</a>
+          {` . `}
+          <a href="https://bitbucket.org/zimmazone/">Bitbucket</a>
         </footer>
       </div>
     )
