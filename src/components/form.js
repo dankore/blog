@@ -5,7 +5,6 @@ import React from 'react'
           return (
             <div
               style={{
-                minWidth: 400,
                 backgroundColor: "	#F5F5F5",
                 padding: 5,
               }}
